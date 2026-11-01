@@ -32,15 +32,15 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # ---------- المفاتيح الثابتة ----------
-TELEGRAM_BOT_TOKEN = '8942399461:AAEVTC6_2bAXoe65Ukk5iWv1WFMYZ2YPpnA'
-PROVERKACHEKA_TOKEN = '39298.gVTPH0QSvesACHosG'
+TELEGRAM_BOT_TOKEN = ''
+PROVERKACHEKA_TOKEN = ''
 
 # ---------- إعداد Gemini ----------
 GEMINI_MODEL = "gemini-3-flash-preview"
-GEMINI_API_KEYS = ['AIzaSyCCdmPCgsgOEDb0JAZk0dwFRrb2-jQXrX4',
- 'AIzaSyC31Wt8GT0uEguGRQCzs1WgauHceqV1ZqE',
- 'AIzaSyAl7XO-NmfC-XNveKA9UlFwEX8liqa2tmw',
- 'AIzaSyAhPj6lIjijt_wTP2Aq6zQU7JPAHy5gujg']
+GEMINI_API_KEYS = ['AIzaSy****',
+ 'AIzaSy****',
+ 'AIzaSy****',
+ 'AIzaSy****']
 
 # ---------- قاعدة بيانات SQLite ----------
 DB_PATH = "finance_bot.db"
